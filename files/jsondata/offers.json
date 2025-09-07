@@ -1,0 +1,65 @@
+{
+  "offers": {
+    "hasMerchantReturnPolicy": [
+      {
+        "@type": "MerchantReturnPolicy",
+        "@id": "https://www.koreanbeautyshopeu.com/#mrp-es",
+        "name": "Devoluciones España",
+        "url": "https://www.koreanbeautyshopeu.com/#mrp-es"
+      },
+      {
+        "@type": "MerchantReturnPolicy",
+        "@id": "https://www.koreanbeautyshopeu.com/#mrp-en",
+        "name": "Returns United Kingdom",
+        "url": "https://www.koreanbeautyshopeu.com/#mrp-en"
+      },
+      {
+        "@type": "MerchantReturnPolicy",
+        "@id": "https://www.koreanbeautyshopeu.com/#mrp-pt",
+        "name": "Devoluções Portugal",
+        "url": "https://www.koreanbeautyshopeu.com/#mrp-pt"
+      }
+    ],
+    "shippingDetails": [
+      {
+        "@type": "OfferShippingDetails",
+        "@id": "https://www.koreanbeautyshopeu.com/#ship-es",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "5.00",
+          "currency": "EUR"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "ES"
+        }
+      },
+      {
+        "@type": "OfferShippingDetails",
+        "@id": "https://www.koreanbeautyshopeu.com/#ship-en",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "5.00",
+          "currency": "EUR"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "GB"
+        }
+      },
+      {
+        "@type": "OfferShippingDetails",
+        "@id": "https://www.koreanbeautyshopeu.com/#ship-pt",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "5.00",
+          "currency": "EUR"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "PT"
+        }
+      }
+    ]
+  }
+}
